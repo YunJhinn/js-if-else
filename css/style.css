@@ -15,13 +15,13 @@ h1{
 }
 .input{
     
-    
+    font-size: 20px;
     padding: 10px 80px; 
     background-color: #fac17e;
 }
 
 .label{
-    font-size: 15px;
+    font-size: 20px;
     color: #ffffff;
     
     
@@ -68,6 +68,34 @@ main{
 .quantidadesalario{
     margin-top: 40px;
     margin-left: 30%;
+}
+.contatos{
+    font-size: 15px;
+    color: beige;
+    text-decoration: none;
+
+}
+.contatos>ul>li>a{
+    color: #77d2f7;
+}
+.reserved{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.decisoes{
+    font-size: 30px;
+    margin-left: 30%;
+    margin-right: 58%;
+    margin-top: 20px;
+    padding: 15px 15px;
+    border: 2px solid;
+    border-color: #82bb26;
+    color: #ffffff;
+    background-color: tomato;
+    
+    
+    
 }
 
 
