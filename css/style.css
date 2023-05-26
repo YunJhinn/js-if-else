@@ -14,15 +14,17 @@ h1{
     font-size: 50px;
 }
 .input{
-    margin-top: 50px;
-    margin-left: 40px;
-    padding: 10px 80px;
+    
+    
+    padding: 10px 80px; 
     background-color: #fac17e;
 }
 
 .label{
     font-size: 15px;
     color: #ffffff;
+    
+    
 }   
 
 .form{
@@ -30,8 +32,42 @@ h1{
     font-size: 15px;
 }
 .button{
-    padding: 7px 20px;
-    margin: 7px 20px;
-    /* background-color: #82bb26; */
+    padding: 7px 20px; 
+    margin-top: 40px ;
+    margin-left: 30%;
+    
+    background-color: #82bb26; 
+    
+
 
 }
+.button:hover{
+    
+    background-color: #77d2f7;
+    
+}
+main{
+    /* text-align: center; */
+    margin: 20px 0px;
+    display: grid;
+    
+    
+}
+.nome{
+    margin-left: 30%;
+    margin-top: 40px ;
+}
+.nascimento{
+    margin-top: 40px ;
+    margin-left: 30%
+}
+.quantidadepessoas{
+    margin-top: 40px ;
+    margin-left: 30%;
+}
+.quantidadesalario{
+    margin-top: 40px;
+    margin-left: 30%;
+}
+
+

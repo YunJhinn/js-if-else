@@ -17,28 +17,36 @@
     </header>
     <main>
         <div class="form">
-            <label class="label" for="nome">Nome</label>
-            <input class="input" type="text" id="nome">
-            <label class="label" for="nasc">Data de Nascimento</label>
-            <input class="input" type="date" id="nasc">
-
-            <label class="label" for="M">M</label>
-            <input class="checkbox" type="checkbox" id="M">
-            <label class="label" for="F">F</label>
-            <input class="checkbox" type="checkbox" id="F">
+            <div class="nome" class="row" >
+                <label class="label" for="nome">Nome</label>
+                <input class="input" type="text" id="nome">
+                <label class="label" for="M">M</label>
+                <input class="checkbox" type="checkbox" id="M">
+                <label class="label" for="F">F</label>
+                <input class="checkbox" type="checkbox" id="F">
+            </div>
+            <div class="nascimento" class="row" >
+                <label class="label" for="nasc">Data de Nascimento</label>
+                <input class="input" type="date" id="nasc">
+            </div>
+            
+            
         </div>
         <div class="form">
-            <label class="label" for="qtdp">Quantidade de Pessoas residentes na mesma casa</label>
-            <input class="input" type="number" id="qtdp">
-            <label class="label" for="qtds">Insira a soma dos salários de todas as pessoas residentes na casa</label>
-            <input class="input" type="number" id="qtds">
+            <div class="quantidadepessoas" class="row">
+                <label class="label" for="qtdp">Quantidade de Pessoas residentes na mesma casa</label>
+                <input class="input" type="number" id="qtdp">
+            </div>
+            <div class="quantidadesalario" class="row">
+                <label class="label" for="qtds">Insira a soma dos salários de todas as pessoas residentes na casa</label>
+                <input class="input" type="number" id="qtds">
+            </div>
         </div>
         <div id="decisao"></div>
         <div id="decisao2"></div> 
-        <div class="button">
-            <button class="button" onclick="renda()" type="submit">Enviar</button>
-        </div> 
-        
+            <div class="row">
+                <button class="button" onclick="renda()" type="submit">Enviar</button> 
+            </div>
     </main>
     <footer></footer>
     
