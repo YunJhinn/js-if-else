@@ -5,13 +5,13 @@ function renda(){
     let nascimento = new Date( document.getElementById('nasc').value);
     let hoje = new Date(); 
     let anoscompletos = hoje.getUTCFullYear()- nascimento.getUTCFullYear();
-    let mes = new Date().getMonth() - nascimento.getMonth()
+    let mes = hoje.getMonth() - nascimento.getMonth()
     if (mes < 0 || ( mes === 0 && hoje.getDate() < nasc.getDate() ) ) {
         anoscompletos--
     }
     let quantidadepessoas = document.getElementById('qtdp').value;
     let somasalarios = document.getElementById('qtds').value;
-    let rendapercapita = sm / quantidadepessoas
+    let rendapercapita = somasalarios / quantidadepessoas
     if(anoscompletos>=16 && rendapercapita <= sm){
         document.getElementById('decisao').innerHTML = alertap
     }
