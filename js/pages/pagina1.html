@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>SENAC-PSG</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+            <h1>Senac-PSG</h1>
+        </div>
+    </header>
+    <main>
+        <div class="form">
+            <div class="nome" class="row" >
+                <label class="label" for="nome">Nome</label>
+                <input class="input" type="text" id="nome">
+                <label class="label" for="M">M</label>
+                <input class="checkbox" type="checkbox" id="M">
+                <label class="label" for="F">F</label>
+                <input class="checkbox" type="checkbox" id="F">
+            </div>
+            <div class="nascimento" class="row" >
+                <label class="label" for="nasc">Data de Nascimento</label>
+                <input class="input" type="date" id="nasc">
+            </div>
+            
+            
+        </div>
+        <div class="form">
+            <div class="quantidadepessoas" class="row">
+                <label class="label" for="qtdp">Quantidade de Pessoas residentes na mesma casa</label>
+                <input class="input" type="number" id="qtdp">
+            </div>
+            <div class="quantidadesalario" class="row">
+                <label class="label" for="qtds">Insira a soma dos salários de todas as pessoas residentes na casa</label>
+                <input class="input" type="number" id="qtds">
+            </div>
+        </div>
+        
+            <div class="row">
+                <button class="button" onclick="renda()" type="submit">Enviar</button> 
+            </div>
+            <div class="decisoes">
+                <div id="decisao"></div>
+                
+        </div>
+    </main>
+    <footer>
+        <div class="contatos">
+            <ul>
+                <li>E-mail: joaovtoralves@gmail.com</li>
+                <li>Telefone: 62 9 94546442</li>
+                <li> <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-alves-3a3043270/">Linkedin</a></li>
+                <li> <a href="https://github.com/YunJhinn">Github</a></li>
+            </ul>
+        </div>
+        <div class="reserved">
+            <p> &copy; All Rights Reserved</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
