@@ -53,12 +53,16 @@
     margin-top: 50px;
     border: 2px solid #fac17e;
 }
+
 .cursos{
+    margin-top: 50px;
     font-size: 20px;
     color: thistle;
     /* text-align: center; */
     list-style: none;
-    margin-left: 120px;
+    /* margin-left: 120px; */
+    border: 2px solid thistle;
+    padding-left: 120px;
 }
 .loc{
     font-size: 15px;
