@@ -48,6 +48,11 @@
     color: #fac17e;
     margin-left: 120px;
 }
+.nos{
+    background-color: #16558a;
+    margin-top: 50px;
+    border: 2px solid #fac17e;
+}
 .cursos{
     font-size: 20px;
     color: thistle;
