@@ -1,60 +1,67 @@
 /* PAGINA INICIAL */
 
-.menu{
-    
+.menu {
+
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
-#navfull{
-    
+
+#navfull {
+
     display: flex;
     list-style: none;
     font-size: 25px;
     column-gap: 20px;
     padding-bottom: 5px;
-    
 
-    
+
+
 }
-#navfull a{
+
+#navfull a {
     color: #fac17e;
     text-decoration: none;
     margin-bottom: 150px;
-    
-    
-    
+
+
+
 }
-#navfull>a:hover{
-    color:#ffffff;
-    
+
+#navfull>a:hover {
+    color: #ffffff;
+
     border: 1px ridge #ffffff;
     background-color: gray;
-    border-width:  5px;
-    
-    
-    
+    border-width: 5px;
+
+
+
 }
-#logo{
-    
+
+#logo {
+
     display: flex;
     justify-content: space-between;
 }
-.h1{
+
+.h1 {
     text-align: center;
 }
-.text{
+
+.text {
     font-size: 23px;
     color: #fac17e;
     margin-left: 120px;
 }
-.nos{
+
+.nos {
     background-color: #16558a;
     margin-top: 50px;
     border: 2px solid #fac17e;
 }
 
-.cursos{
+.cursos {
     margin-top: 50px;
     font-size: 20px;
     color: thistle;
@@ -64,51 +71,135 @@
     border: 2px solid thistle;
     padding-left: 120px;
 }
-.loc{
+
+.loc {
     font-size: 15px;
     color: #77d2f7;
 }
-.loc a{
+
+.loc a {
     color: #fac17e;
     text-decoration: none;
     font-size: 20px;
 }
-.card2{
-    margin-top: 100px ;
+
+.card2 {
+    margin-top: 100px;
     display: flex;
     column-gap: 20px;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.card{
-    
-    border:  1px solid grey;
+
+.card {
+
+    border: 1px solid grey;
     border-radius: 10px;
     padding-top: 5px;
-    padding-left: 5px ;
+    padding-left: 5px;
     padding-bottom: 15px;
-    padding-right: 85px ;
+    padding-right: 85px;
     background-color: #2db1e6;
-    
-    
+
+
 }
+
 .card h3 {
-    font-size: 25px ;
+    font-size: 25px;
     color: aqua;
 }
-.card p{
+
+.card p {
     color: white;
     font-size: 20px;
 }
-.card a{
+
+.card a {
     font-size: 20px;
     color: #ffffff;
     border: 1px solid #ffffff;
     background-color: blue;
     padding: 8px;
-    
+
 
 }
+
+/* PAGINA2 */
+
+.dia1 {
+    background-color: #16558a;
+    padding-left: 40px;
+}
+
+.dia1 h4 {
+    font-size: 20px;
+    color: #fac17e;
+
+}
+
+.labelpresenca {
+    font-size: 15px;
+    color: #82bb26;
+}
+.labelausencia{
+    font-size: 15px;
+    color: red;
+
+}
+.media{
+    display: flex;
+    column-gap: 30px;
+    
+}
+.media>input{
+    background-color: #77d2f7;
+    padding: 15px;
+}
+.media>input::placeholder{
+    font-size: 14px;
+    color: black;
+}
+.media>button{
+
+    background-color: #82bb26;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+.media>button:hover{
+
+    background-color:white;
+}
+.presenca>button{
+
+    background-color: #82bb26;
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+.presenca>button:hover{
+
+    background-color:white;
+}
+footer>p{
+    text-align: center;
+    color: #ffffff;
+}
+#resultado{
+
+    border: 1px solid #ffffff;
+    padding: 20px 40px ;
+    margin-right: 80%;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #fac17e;
+    background-color: #16558a;
+    border-radius: 10px;
+    
+}
+
+
 
 
 
@@ -134,92 +225,106 @@
 
 
 /* PAGINA 1 - MATRÍCULAS */
-body{
+body {
     background-color: #014687;
 }
-.logo{
+
+.logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     background-color: #014687;
 }
-h1{
+
+h1 {
     padding-right: 900px;
     font-size: 50px;
     color: #ffffff;
 }
-.input{
-    
+
+.input {
+
     font-size: 20px;
-    padding: 10px 80px; 
+    padding: 10px 80px;
     background-color: #fac17e;
 }
 
-.label{
+.label {
     font-size: 20px;
     color: #ffffff;
-    
-    
-}   
 
-.form{
-    
+
+}
+
+.form {
+
     font-size: 15px;
 }
-.button{
-    padding: 7px 20px; 
-    margin-top: 40px ;
+
+.button {
+    padding: 7px 20px;
+    margin-top: 40px;
     margin-left: 30%;
-    
-    background-color: #82bb26; 
-    
+
+    background-color: #82bb26;
+
 
 
 }
-.button:hover{
-    
+
+.button:hover {
+
     background-color: #77d2f7;
-    
+
 }
-main{
+
+main {
     /* text-align: center; */
     margin: 20px 0px;
     display: grid;
-    
-    
+
+
 }
-.nome{
+
+.nome {
     margin-left: 30%;
-    margin-top: 40px ;
+    margin-top: 40px;
 }
-.nascimento{
-    margin-top: 40px ;
+
+.nascimento {
+    margin-top: 40px;
     margin-left: 30%
 }
-.quantidadepessoas{
-    margin-top: 40px ;
-    margin-left: 30%;
-}
-.quantidadesalario{
+
+.quantidadepessoas {
     margin-top: 40px;
     margin-left: 30%;
 }
-.contatos{
+
+.quantidadesalario {
+    margin-top: 40px;
+    margin-left: 30%;
+}
+
+.contatos {
     font-size: 15px;
     color: beige;
     text-decoration: none;
 
 }
-.contatos>ul>li>a{
+
+.contatos>ul>li>a {
     color: #77d2f7;
 }
-.reserved{
+
+.reserved {
     text-align: center;
     font-size: 15px;
     margin-bottom: 0;
 }
-.decisoes{
+
+.decisoes {
     font-size: 30px;
     margin-left: 30%;
     margin-right: 40%;
@@ -229,9 +334,7 @@ main{
     border-color: #82bb26;
     color: #ffffff;
     background-color: tomato;
-    
-    
-    
+
+
+
 }
-
-
