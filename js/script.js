@@ -66,8 +66,12 @@ function presenca(){
         document.getElementById('resultado').innerHTML = ("Você foi Reprovado devido a: Presença abaixo do necessário(75%)")
     }
     if(notafinal<6 && presencatotal<75){
-        document.getElementById('resultado').innerHTML = ("Você está com a nota e a presença abaixo do necessário , reveja seus atos menó")
+        document.getElementById('resultado').innerHTML = ("Você está com a nota e a presença abaixo do necessário , WHAT YOU'RE FUCKING DOING BRO")
     }
+    // else{
+    //     document.getElementById('resultado').innerHTML = ("Por favor Insira os Dados acima")
+
+    // }
 
 
 
