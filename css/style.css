@@ -7,6 +7,7 @@
     text-align: center;
 }
 
+
 #navfull {
 
     display: flex;
@@ -48,6 +49,10 @@
 .h1 {
     text-align: center;
 }
+.h1index{
+    text-align: center;
+    padding-right: 100px;
+}
 
 .text {
     font-size: 23px;
@@ -61,16 +66,7 @@
     border: 2px solid #fac17e;
 }
 
-.cursos {
-    margin-top: 50px;
-    font-size: 20px;
-    color: thistle;
-    /* text-align: center; */
-    list-style: none;
-    /* margin-left: 120px; */
-    border: 2px solid thistle;
-    padding-left: 120px;
-}
+
 
 .loc {
     font-size: 15px;
@@ -197,6 +193,17 @@ footer>p{
     background-color: #16558a;
     border-radius: 10px;
     
+}
+table, th,td{
+    border: 1px solid #77d2f7;
+    table-layout: fixed;
+    color: #fac17e;
+    background-color: #16558a;
+    font-size: 20px;
+}
+.cursos>h2{
+    font-size: 40px;
+    color: #fac17e;
 }
 
 
